@@ -466,7 +466,7 @@ Steady-state at light traffic (this portfolio configuration):
 | Resource | Monthly cost |
 |---|---|
 | Cloud Run × 2 (scale-to-zero, idle) | ~$0 |
-| Memorystore Redis BASIC 5GB × 2 | ~$70 |
+| Memorystore Redis BASIC 5GB × 2 | ~$300 |
 | KMS keys × 4 (per-region + per-purpose) | ~$0.24 |
 | Global LB forwarding rule | ~$18 |
 | Cloud Armor policy | ~$5 base + $1/M requests |
@@ -475,7 +475,7 @@ Steady-state at light traffic (this portfolio configuration):
 | Cloud Logging + Monitoring | ~$0-5 |
 | Vertex AI calls (Gemini 2.5/3.5 Flash) | Per-token, ~$0.07/$0.30 per 1M tokens |
 | Network egress (US/EU intra-region) | ~$0 |
-| **Total baseline** | **~$95/month** |
+| **Total baseline** | **~$330/month** |
 
 Cost can drop ~$60/month by switching Memorystore to a single
 `BASIC 1GB` instance and skipping the secondary region (single-region
