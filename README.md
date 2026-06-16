@@ -487,6 +487,14 @@ Vertex AI Gemini calls scale linearly with token volume.
 
 ---
 
+## Author
+
+**Robert Okolotowicz**
+AI Security Architect
+[LinkedIn](https://www.linkedin.com/in/robert-okolotowicz/) · [GitHub](https://github.com/rokolotowicz)
+
+---
+
 ## License
 
 MIT
